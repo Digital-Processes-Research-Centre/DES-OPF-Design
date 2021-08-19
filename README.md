@@ -1,5 +1,7 @@
 # DES-OPF-Design
-This repository includes an MILP model to design a Distributed Energy System, which can be combined with NLP formulations for balanced AC optimal power flow (OPF) to form an MINLP model overall. \
+This repository includes an MILP model to design a Distributed Energy System, which can be combined with NLP formulations for balanced AC power flow. \
+The combined DES-OPF model can be solved as an MINLP, or as a bi-level problem with an MILP master problem and NLP subproblem. \
+ \
 Please use _t9_main.py_ to run MILP, NLP and/or MINLP models. 
 
 Note that the results from the OPF class (voltage magnitudes, angles, active/reactive powers, and currents)
